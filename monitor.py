@@ -1,11 +1,11 @@
 import os
 import time
 from datetime import datetime
+from pathlib import Path
 import pickle
 
 import mouse
 import keyboard
-from pathlib import Path
 
 
 DESKTOP = Path.home() / 'Desktop'
