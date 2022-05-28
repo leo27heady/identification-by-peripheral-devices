@@ -10,6 +10,10 @@ def div(a, b) -> int:
     return int(a / b)
 
 
+def pow(a, b) -> int:
+    return int(a**b)
+
+
 
 def to_sentence(s) -> str:
     s = s.capitalize()
