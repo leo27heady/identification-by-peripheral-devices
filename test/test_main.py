@@ -6,6 +6,7 @@ def test_add():
     assert main.add(3.5, 4) == 7
     assert main.add(3.9, 4) == 7
     assert main.add(3.9, 4.1) == 8
+    assert main.add("2", "4") == 6
 
 
 def test_to_sentence():
@@ -17,6 +18,8 @@ def test_div():
     assert main.div(8, 2) == 4
     assert main.div(16, 4) == 4
     assert main.div(20, 5) == 4
+    assert main.add(2, "2") == 6
+    assert main.div(2, 0) == None
 
 def test_pow():
     assert main.pow(2, 2) == 4
